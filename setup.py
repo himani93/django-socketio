@@ -10,7 +10,7 @@ setup(
     description = ("A Django app providing the features required to use "
                    "websockets with Django via Socket.IO"),
     long_description = open("README.rst").read(),
-    url = "http://github.com/stephenmcd/django-socketio",
+    url = "http://github.com/himani93/django-socketio",
     py_modules=["django_socketio",],
     install_requires=["gevent-socketio==0.2.1", "sphinx-me", "django>=1.4.8"],
     zip_safe = False,
