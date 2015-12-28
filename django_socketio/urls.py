@@ -1,7 +1,8 @@
 from django.conf.urls import patterns, url
 
 from django.conf import settings
-from django.utils.importlib import import_module
+#provide support for django 1.9
+from importlib import import_module
 
 
 # Try and import an ``events`` module in each installed app,
